@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Media Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>📸 My Media Gallery</h1>
+    <p>Upload your photos or videos and share your stories.</p>
+  </header>
+
+  <section id="upload-section">
+    <h2>Upload New Post</h2>
+    <form id="uploadForm">
+      <input type="file" id="mediaFile" accept="image/*,video/*" required><br>
+      <input type="text" id="caption" placeholder="Enter a caption..." required><br>
+      <button type="submit">Add to Gallery</button>
+    </form>
+  </section>
+
+  <section id="gallery">
+    <h2>Your Posts</h2>
+    <!-- Media posts will appear here -->
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
